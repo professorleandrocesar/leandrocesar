@@ -297,7 +297,7 @@ body {
     align-self: center;
     width: 40%;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   
   .btn-after a{ 
@@ -312,10 +312,21 @@ body {
     cursor: pointer;
   }
   
-  .main a:hover{ 
+  .mainOne a:hover{ 
       background: #fadb41;
       color: #002937;
   }
+
+  .mainTwo a:hover{ 
+      background: #860d0d;
+      color: #fff;
+  }
+
+  .mainTree a:hover{
+    background: #205461;
+      color: #53dd84;
+  }
+
 
   .btn-after a:hover:nth-child(1),
   .btn-after a:hover:nth-child(2),
@@ -348,21 +359,6 @@ body {
     
 
 }
-  
-.main:nth-child(2) a:hover {
-    background: #fadb41;
-    color: #002937;
-  }
-
-  .main:nth-child(1) a:hover {
-    background: #860d0d;
-    color: #fff;
-  }
-
-  .main:nth-child(5) a:hover {
-    color: #fadb41;
-    background-color: #002937;
-  }
 
   .main-p {
     text-align: center;
@@ -521,6 +517,16 @@ td a{
       .main-r-personal {
         text-align: center;
       }
+
+      .mainOne a:hover{ 
+      background: #fadb41;
+      color: #002937;
+  }
+
+  .mainTwo a:hover{ 
+      background: #860d0d;
+      color: #fff;
+  }
 
       .div-two-personal {
     display: flex;
@@ -724,6 +730,15 @@ td a{
         width: 95%;
       }
       
+      .mainOne a:hover{ 
+      background: #fadb41;
+      color: #002937;
+  }
+
+  .mainTwo a:hover{ 
+      background: #860d0d;
+      color: #fff;
+  }
       .btn-after {
         display: flex;
         flex-flow: row wrap;

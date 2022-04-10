@@ -15,7 +15,7 @@
   </div>
 
   <div v-html='contentTwo'></div>
-
+<!--
   <div class="main mainTree"> 
     <a @click="espirita" class='lineBtnTree' :class='{ lineBtnHoverTree: aplicarTree }'>
     <i class="fas fa-bible"></i><br>Espirita.xyz
@@ -23,7 +23,7 @@
   </div>
 
   <div v-html='contentTree'></div>
-
+  -->
 </div>
 </template>
 <script>
@@ -56,7 +56,7 @@ data() {
       <a href="https://youtube.com/leandrocesarcosta" class=''>
         <i class="fab fa-youtube"></i> Youtube
       </a>
-    <a href="https://blog.professorleandrocesar.com">
+    <a href="https://professorleandrocesar.com/blog">
       <i class="fas fa-blog"></i> Blog
     </a>
   </div>

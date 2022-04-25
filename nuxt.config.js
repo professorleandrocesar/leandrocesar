@@ -33,7 +33,7 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Philosopher&display=swap' }
     ],
     script: [
-      { src: 'https://kit.fontawesome.com/da2962ce7f.js'},
+      { src: 'https://kit.fontawesome.com/da2962ce7f.js' },
       { src: '/index.js'},
       { src: '/personal.js'}
     ]

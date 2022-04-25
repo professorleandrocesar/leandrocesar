@@ -1,0 +1,76 @@
+<template>
+  <div>
+    <div class="nav-bottom"> 
+    <NuxtLink to='/'>
+      <i class="fas fasi-nav fa-home"></i>
+      <h5>INÍCIO</h5>
+    </NuxtLink>
+     <NuxtLink to='/professor'>
+      <i class="fa-solid fa-dumbbell"></i>
+      <h5>PROFESSOR</h5>
+    </NuxtLink>
+     <NuxtLink to='/servicos'>
+    <i class="fa-solid fa-arrows-spin"></i>
+      <h5>SERVIÇOS</h5>
+    </NuxtLink>
+    <NuxtLink to='/professor/blog'>
+      <i class="fa-solid fa-blog"></i>
+    <h5>BLOG</h5>
+    </NuxtLink>
+  </div>
+  </div>
+</template>
+
+<style scoped>
+
+h5 {
+  margin: 9px 0 13px 0;
+  font-size: .6em;
+}
+i {
+  font-size: 1.1em;
+}
+.nav-bottom {
+  position: fixed;
+  bottom: .1px;
+  width: 100%;
+  background-color: #002937;
+  color: #dbd1d1;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-self: center;
+  line-height: 0;
+  border-radius: 10% 10% 0% 0%;
+  box-shadow: 0px 2px 3px #fadb41;
+}
+
+.nav-bottom div {
+  cursor: pointer;
+}
+
+.nav-bottom div h5 {
+  margin: 0;
+  padding:0;
+  font-size: 1em;
+}
+
+.nav-bottom a {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  color: #F7EBE880;
+  font-size: .9em;
+  margin: 10px 0 0px 0;
+}
+
+.nav-bottom a.nuxt-link-exact-active {
+  color: #fadb41;
+}
+
+</style>

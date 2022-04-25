@@ -1,10 +1,18 @@
 <template>
-    <footer class="main-c">
-        <NuxtLink to="/"><LCLogo/></NuxtLink>
-              <a class='btn-whats'  href='https://api.whatsapp.com/send?phone=5521971305858%20&text=Olá%20Leandro%20Cesar,%20fiquei%20interessado(a)%20na%20sua%20Consultoria%20e%20nos%20seus%20Serviços,%20me%20chamo%20'  target='_blank'><i class="fab fa-whatsapp-square whats-static"></i></a>
-
+    <footer class="main">
+      <div>
+        <a href="https://leandrocesar.com"><LCLogo/></a>
+              
         <h1>Leandro Cesar</h1>
         <p class='ConSer'>Consultoria & Serviços</p>
+        
+      </div>
+      <div>  
+        <p class="ul-icons-p ">
+          <a href="https://leandrocesar.com">leandrocesar.com</a> &copy; 2021-2022 <br> CNPJ: 40.930.118/0001-33<br>| Leandro Cesar Ramos da Costa |
+        </p>
+
+      </div>
     </footer>
 </template>
 
@@ -12,11 +20,23 @@
 <style scoped>
 
 /* Início dos códigos do 'footer' */
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.main div{
+  margin: auto;
+}
 footer {
-  background: #002937;
+  background: #fff;
   width: 100%;
+  height: 300px;
   clear: both;
-    margin: 30px auto;
+  margin:10px 0;
 }
 
 svg {
@@ -27,6 +47,7 @@ svg {
 footer h1 {
   margin: -25px 0 0 0;
   font-size: 1.5em;
+  color: #888;
 }
 
 footer a {
@@ -92,7 +113,7 @@ footer a {
   margin-top: -10px;
   margin-bottom: 0px;
   font-size: .8em;
-  color: #fadb41;
+  color: #aaa;
 }
 
 /* fim dos códigos do 'footer' */
@@ -111,10 +132,11 @@ footer a {
 
     /* Início dos códigos do 'footer' */
   footer {
-    background: #002937;
+    background: #fff;
     width: 100%;
+    height: 220px;
     clear: both;
-    margin: 30px auto;
+    margin-top: 10px;
   }
 
   svg {
@@ -156,6 +178,12 @@ footer a {
     text-shadow: 1px 1px 1px #fadb4180;
     transition: color .3s linear;
     margin: 0 12px;
+
+  }
+  .ul-icons-p {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top:15px;
   }
 
   .ConSer {

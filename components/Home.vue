@@ -1,8 +1,6 @@
 <template>
   <div>
 
-   
-
     <div class='profile'>
       <img src='img/myFotoTwo.jpg' alt=''>
       <div>
@@ -15,11 +13,9 @@
       <nuxt-link to="/deepacupuntura">
         <i class="fa-solid fa-building"></i> Dono do Deep Acupuntura
       </nuxt-link> 
-      
       <a href="https://goo.gl/maps/4bbTEUKuQDbqotTG9">
         <i class="fa-solid fa-location-dot"></i> Niterói - Rio de Janeiro - Brasil
-      </a> 
-      
+      </a>       
       <a href="https://github.com/professorleandrocesar">
         <i class="fa-brands fa-github"></i>  GitHub
       </a>
@@ -42,6 +38,7 @@
         <h5><i class="fa-solid fa-bars-progress"></i> Projetos Ativos</h5>
       </div>
     </div>
+
     <div class='main-four'>
       <div class='main-four-card'>
         <nuxt-link to="/professor">
@@ -62,6 +59,84 @@
     </div>  
 
     <div class='divider'></div>
+
+    <div class='main-tree'>
+      <div>
+        <h5><i class="fa-brands fa-youtube"></i> YouTube - Últimas</h5>
+      </div>
+    </div>
+
+    <div class='main-five'>
+      <div class='main-five-card'>
+        <a>
+          <img src='img/myFotoTwo.jpg' alt='' class='mini-profile'> 
+          <span>Leandro Cesar</span>
+          <br>
+          <h4><i class="fa-solid fa-angle-right"></i> Aprenda Marleting digital do zero com anucios, dsds dsdfdf</h4>
+           <iframe width="250" height="200" src="https://www.youtube.com/embed/KWtQk_uocXg" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h4>@professorleandrocesar</h4>
+        </a>
+        <a>
+          <img src='img/myFotoTwo.jpg' alt='' class='mini-profile'> 
+          <span>Leandro Cesar</span>
+          <br>
+          <h4><i class="fa-solid fa-angle-right"></i> Aprenda Marleting digital do zero com anucios, dsds dsdfdf</h4>
+           <iframe width="250" height="200" src="https://www.youtube.com/embed/KWtQk_uocXg" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h4>@professorleandrocesar</h4>
+        </a>
+      </div>  
+    </div>  
+
+    <div class='divider'></div>
+
+    <div class='main-tree'>
+      <div>
+        <h5><i class="fa-solid fa-blog"></i> Blog - Destaques</h5>
+      </div>
+    </div>
+    
+    <div class='main-six'>
+      <div class='main-six-card'>
+        <a>
+          <img src='img/myFotoTwo.jpg' alt='' class='mini-profile'> 
+          <span>Leandro Cesar</span>
+          <br>
+          <h4>@professorleandrocesar</h4>
+        </a>
+        <a>
+          <img src='img/myFotoTwo.jpg' alt='' class='mini-profile'> 
+          <span>Leandro Cesar</span>
+          <br>
+          <h4>@professorleandrocesar</h4>
+        </a>
+      </div>  
+    </div>  
+
+    <div class='divider'></div>
+
+    <div class='main-tree'>
+      <div>
+        <h5><i class="fa-brands fa-youtube"></i> YouTube - Últimas</h5>
+      </div>
+    </div>
+
+    <div class='main-seven'>
+      <div class='main-seven-card'>
+        <a>
+          
+        </a>
+        <a>
+        </a>
+      </div>  
+    </div>  
+
+    <div class='divider'></div>
+
+    
+    <br>
+    <br>
+    <br>
+
   </div>
 </template>
 <style scoped>
@@ -70,6 +145,10 @@
   font-family: 'Philosopher', sans-serif;
   color: #aaa;
   line-height: 1.6;
+}
+
+iframe {
+  margin-left: 10px;
 }
 
 a{
@@ -253,6 +332,102 @@ code {
 }
 
 .main-four-card p {
+  margin: 0 0 0 10px;
+  font-size: .8em;
+}
+
+.main-five {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: -10px 0 0 0;
+  color: #555;
+  box-shadow: 0px 10px 10px#bbb;
+  overflow-x:auto;
+}
+
+.main-five i {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.main-five h5{
+  margin-left: 10px;
+}
+
+.main-five-card {
+  height: 370px;
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.main-five-card a {
+  border: solid .1px #dddddd54;
+  margin: 0px 5px 20px 10px;
+  width: 500px;
+  border-radius: 3% 3% 3% 3%;
+}
+.main-five-card span {
+  position: relative;
+  top: -6px;
+  left: -14px;
+}
+
+.main-five-card h4 {
+  margin: 0 5px 0 10px;
+}
+
+.main-five-card p {
+  margin: 0 0 0 10px;
+  font-size: .8em;
+}
+
+.main-six {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: -10px 0 0 0;
+  color: #555;
+  box-shadow: 0px 10px 10px#bbb;
+  overflow-x:auto;
+}
+
+.main-six i {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.main-six h5{
+  margin-left: 10px;
+}
+
+.main-six-card {
+  height: 150px;
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.main-six-card a {
+  border: solid .1px #dddddd54;
+  margin: 0px 5px 20px 10px;
+  width: 500px;
+  border-radius: 3% 3% 3% 3%;
+}
+.main-six-card span {
+  position: relative;
+  top: -6px;
+  left: -14px;
+}
+
+.main-six-card h4 {
+  margin: 0 5px 0 10px;
+}
+
+.main-six-card p {
   margin: 0 0 0 10px;
   font-size: .8em;
 }

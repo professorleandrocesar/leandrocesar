@@ -105,7 +105,8 @@ code {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  padding:10px 0 5px 0;
+  padding:20px 0 5px 0;
+  margin-top:-10px;
 }
 
 .profile a {

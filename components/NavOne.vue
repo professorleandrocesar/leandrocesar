@@ -14,6 +14,10 @@
   height: 35px;
   position: sticky;
   top: -1px;
+  background: #fff;
+  border-radius: 0% 0% 10% 10%;
+  box-shadow: 0px .5px 5px #eee;
+  z-index: 10;
 }
 
 .nav-one div{

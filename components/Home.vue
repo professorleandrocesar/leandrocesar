@@ -116,7 +116,7 @@
 
     <div class='main-tree'>
       <div>
-        <h5><i class="fa-brands fa-youtube"></i> YouTube - Últimas</h5>
+        <h5><i class="fa-solid fa-handshake"></i> Parceiros</h5>
       </div>
     </div>
 

@@ -122,11 +122,7 @@
 
     <div class='main-seven'>
       <div class='main-seven-card'>
-        <a>
-          
-        </a>
-        <a>
-        </a>
+        
       </div>  
     </div>  
 
@@ -428,6 +424,51 @@ code {
 }
 
 .main-six-card p {
+  margin: 0 0 0 10px;
+  font-size: .8em;
+}
+
+.main-seven {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: -10px 0 0 0;
+  color: #555;
+  box-shadow: 0px 10px 10px#bbb;
+  overflow-x:auto;
+}
+
+.main-seven i {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.main-seven h5{
+  margin-left: 10px;
+}
+
+.main-seven-card {
+  height: 150px;
+  width:150px;
+}
+
+.main-seven-card a {
+  border: solid .1px #dddddd54;
+  margin: 0px 5px 20px 10px;
+  width: 500px;
+  border-radius: 3% 3% 3% 3%;
+}
+.main-seven-card span {
+  position: relative;
+  top: -6px;
+  left: -14px;
+}
+
+.main-seven-card h4 {
+  margin: 0 5px 0 10px;
+}
+
+.main-seven-card p {
   margin: 0 0 0 10px;
   font-size: .8em;
 }

@@ -5,7 +5,7 @@
       <i class="fas fasi-nav fa-home"></i>
       <h5>INÍCIO</h5>
     </NuxtLink>
-     <NuxtLink to='/projetos'>
+     <NuxtLink to='/projetos/ativos'>
       <i class="fa-solid fa-diagram-project"></i>
       <h5>PROJETOS</h5>
     </NuxtLink>

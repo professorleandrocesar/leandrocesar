@@ -1,8 +1,6 @@
 <template>
   <div>
 
-   
-
     <div class='profile'>
       <img src='img/myFotoTwo.jpg' alt=''>
       <div>
@@ -16,7 +14,7 @@
         <i class="fa-brands fa-instagram-square"></i> @professorleandrocesar
       </a> 
       
-      <a href="/#">
+      <a>
         <i class="fa-regular fa-id-card"></i> CREF: 029260-G/RJ
       </a> 
       
@@ -47,9 +45,6 @@
     </div>
     <div class='main-four'>
       <div class='main-four-card'>
-        <div @click='geral' >
-          <h4>Geral</h4>
-        </div>
         <div @click='personal' >
           <h4>Personal Trainer</h4>
         </div>

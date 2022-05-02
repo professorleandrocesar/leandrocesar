@@ -1,7 +1,7 @@
 <template>
 <div>
   <NavTree/>
-  <Sobre/>
+  <Projetos/>
   <NavBottom/>
 </div>
 </template>

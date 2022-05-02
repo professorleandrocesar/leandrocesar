@@ -59,7 +59,6 @@
     </div>  
 
     <div class='divider'></div>
-
     <div class='main-tree'>
       <div>
         <h5><i class="fa-brands fa-youtube"></i> YouTube - Últimas</h5>
@@ -72,10 +71,11 @@
           <img src='img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
           <br>
-          <h4><i class="fa-solid fa-angle-right"></i> Aprenda Marleting digital do zero com anucios, dsds dsdfdf</h4>
-           <iframe width="250" height="200" src="https://www.youtube.com/embed/KWtQk_uocXg" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <h4>@professorleandrocesar</h4>
+          <h4><i class="fa-solid fa-angle-right"></i> Vinheta - Deep Acupuntura, para os futuros vídeos do Canal!</h4>
+            <iframe width="250" height="200" src="https://www.youtube.com/embed/4s8isgZIGDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h4>@deepacupuntura</h4>
         </a>
+        <!--
         <a>
           <img src='img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
@@ -84,6 +84,7 @@
            <iframe width="250" height="200" src="https://www.youtube.com/embed/KWtQk_uocXg" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <h4>@professorleandrocesar</h4>
         </a>
+    -->
       </div>  
     </div>  
 
@@ -97,18 +98,43 @@
     
     <div class='main-six'>
       <div class='main-six-card'>
-        <a>
+        <a href='https://deepacupuntura.com/posts/lombalgia-tai-yang/'>
           <img src='img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
           <br>
-          <h4>@professorleandrocesar</h4>
+          <h5>
+            <i class="fa-solid fa-angle-right"></i> A Acupuntura no Tratamento da Lombalgia Tai Yang:
+            Revisão Bibliográfica
+          </h5>
+          <p>
+            <b>Resumo:</b>
+            <br>
+            A Medicina Tradicional Chinesa (MTC) tem sua origem das combinações da prática da moxabustão, acupuntura e da farmacologia natural cujos ...
+          </p>
+          <h4>
+            @deepacupuntura
+          </h4>
         </a>
-        <a>
+        <a href='https://deepacupuntura.com/posts/auriculoterapia-visao-oriental-ocidental/'>
           <img src='img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
           <br>
-          <h4>@professorleandrocesar</h4>
+          <h5>
+            <i class="fa-solid fa-angle-right"></i> 
+            AURICULOTERAPIA:
+            Uma Visão Geral Dentro do
+            Pensamento Oriental e Ocidental
+          </h5>
+          <p>
+            <b>Resumo:</b>
+            <br>
+            Segundo Oleson (2003) a auriculoterapia é uma modalidade de saúde em que a superfície externa da orelha, ou aurícula, é estimulada para a...
+          </p>
+          <h4>
+            @deepacupuntura
+          </h4>
         </a>
+       
       </div>  
     </div>  
 
@@ -122,7 +148,7 @@
 
     <div class='main-seven'>
       <div class='main-seven-card'>
-        
+        <nuxt-link to="/parceiros"><img src="/img/carol-manna.png"></nuxt-link>
       </div>  
     </div>  
 
@@ -353,7 +379,7 @@ code {
 
 .main-five-card {
   height: 370px;
-  width: 600px;
+  width: 300px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
@@ -399,8 +425,12 @@ code {
   margin-left: 10px;
 }
 
+.main-six h5{
+  margin: 10px;
+}
+
 .main-six-card {
-  height: 150px;
+  height: 280px;
   width: 600px;
   display: flex;
   justify-content: flex-start;
@@ -424,13 +454,13 @@ code {
 }
 
 .main-six-card p {
-  margin: 0 0 0 10px;
+  margin: 0 0 10px 10px;
   font-size: .8em;
 }
 
 .main-seven {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   margin: -10px 0 0 0;
   color: #555;
@@ -448,15 +478,19 @@ code {
 }
 
 .main-seven-card {
-  height: 150px;
-  width:150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;   
+  margin:auto;
+
 }
 
 .main-seven-card a {
-  border: solid .1px #dddddd54;
-  margin: 0px 5px 20px 10px;
-  width: 500px;
-  border-radius: 3% 3% 3% 3%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;   
+  margin:10px auto 20px auto  ;
+  width:60%;
 }
 .main-seven-card span {
   position: relative;

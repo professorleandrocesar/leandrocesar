@@ -9,7 +9,7 @@
       <i class="fa-solid fa-dumbbell"></i>
       <h5>PROFESSOR</h5>
     </NuxtLink>
-     <NuxtLink to='/servicos'>
+     <NuxtLink to='/professor/servicos'>
     <i class="fa-solid fa-arrows-spin"></i>
       <h5>SERVIÇOS</h5>
     </NuxtLink>

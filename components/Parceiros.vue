@@ -72,6 +72,25 @@
 
   </div>
 </template>
+<script>
+export default {
+  head: {
+    title: 'Parceiros | Leandro Cesar',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Sobre Leandro Cesar Ramos da Costa, Personal Leandro Cesar, Professor Leandro Cesar'
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'Personal, Personal Trainer, Niterói, São Gonçalo, Professor Leandro Cesar'
+      }
+    ]
+  }
+}
+  </script>
 <style scoped>
   body {
   background: #fff;

@@ -45,26 +45,43 @@
     </div>
     <div class='main-four'>
       <div class='main-four-card'>
-        <div @click='personal' >
-          <h4>Personal Trainer</h4>
-        </div>
-        <div @click=''>
-          <h4>Consultoria</h4>
-        </div>
-        <div @click=''>
-          <h4>Avaliação Física</h4>
-        </div>
-        <div @click=''>
-          <h4>Combos</h4>
-        </div>
-      </div>  
-    </div>  
+        <nuxt-link to="/professor/">Todos</nuxt-link>
+        <nuxt-link to="/professor/personal">Personal</nuxt-link>
+        <nuxt-link to="/professor/consultoria">Consultoria</nuxt-link>
+        <nuxt-link to="/professor/avaliacao">Avaliação</nuxt-link>
+      </div>
+    </div>
+
+    
+    
+    <nuxt-child />
 
     <div class='divider'></div>
-    <div class='divider-ultimate'></div>
-  
+
+
   </div>
 </template>
+<script>
+export default {
+  head: {
+    title: 'Professor | Leandro Cesar',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Sobre Leandro Cesar Ramos da Costa, Personal Leandro Cesar, Professor Leandro Cesar',
+        name: 'msapplication-TileColor', content: '#002937',
+        name: 'theme-color', content: '#002937'
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'Personal, Personal Trainer, Niterói, São Gonçalo, Professor Leandro Cesar'
+      }
+    ]
+  }
+}
+  </script>
 
 <style scoped>
 a{
@@ -201,7 +218,6 @@ code {
   flex-direction: column;
   margin:-10px 0 0 0;
   color: #fff;
-  box-shadow: 0px 10px 5px #fadb41;
   background: #002937;  
   overflow-x:auto;
 }
@@ -212,22 +228,22 @@ code {
 }
 
 .main-four h5{
-  margin-left: 10px;
+  margin: 0 auto 20px auto ;
 }
 
 .main-four-card {
-  height: 150px;
-  width: 200px;
+  margin: 10px 0 10px 10px; 
+  height: 50px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
 }
 
 .main-four-card a {
   border: solid .1px #dddddd54;
-  margin: 0px 5px 20px 10px;
-  width: 500px;
-  border-radius: 3% 3% 3% 3%;
+  padding: 5px 15px 5px 15px;
+  margin: 0 10px 12px 0 ;
+  border-radius: 0% 10% 10% 10%;
 }
 .main-four-card span {
   position: relative;
@@ -247,6 +263,56 @@ code {
   font-size: .8em;
 }
 
+.main-five {
+  background: #002937;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: -10px 0 0 0;
+  color: #fff;
+  box-shadow: 0px 10px 10px#bbb;
+  overflow-x:auto;
+}
+
+.main-five i {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.main-five h5{
+  margin-left: 10px;
+}
+
+.main-five-card {
+  height: 370px;
+  margin: 0 10px;
+  border: solid .5px #fadb4190;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.main-five-card a {
+  border: solid .1px #dddddd54;
+  margin: 0px 5px 20px 10px;
+  width: 500px;
+  border-radius: 3% 3% 3% 3%;
+}
+.main-five-card span {
+  position: relative;
+  top: -6px;
+  left: -14px;
+}
+
+.main-five-card h4 {
+  margin: 0 5px 0 10px;
+}
+
+.main-five-card p {
+  margin: 0 0 0 10px;
+  font-size: .8em;
+}
+
 .mini-profile {
   height: 25px;
 border-radius: 50%;
@@ -254,6 +320,13 @@ margin: 10px 0 0 10px;
 padding: 0 15px 0 0;
 }
 
+
+
+a.nuxt-link-exact-active {
+  background-color: #fadb4170;
+  color:#fff;
+  border-radius: 0% 10% 10% 10%;
+}
 
 @media only screen and (max-width: 369px) {
 

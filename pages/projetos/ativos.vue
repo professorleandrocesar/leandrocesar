@@ -8,6 +8,10 @@
     </div>
 
     <div class='main-four'>
+
+        <h5>
+            Clique em um dos projetos abaixo! 👇
+        </h5>
         <nuxt-link to="/professor">
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
@@ -29,7 +33,7 @@
 <script>
 export default {
   head: {
-    title: 'Sobre | Leandro Cesar Ramos da Costa | Site',
+    title: 'Projetos Ativos | Leandro Cesar',
     meta: [
       {
         hid: 'description',
@@ -481,7 +485,7 @@ code {
 }
 
 .main-four h5{
-  margin-left: 10px;
+  margin: 0px auto 0px auto;
 }
 
 .main-four a {

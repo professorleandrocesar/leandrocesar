@@ -83,7 +83,7 @@
 <script>
 export default {
   head: {
-    title: 'Sobre | Leandro Cesar Ramos da Costa | Site',
+    title: 'Sobre | Leandro Cesar Ramos da Costa',
     meta: [
       {
         hid: 'description',
@@ -113,7 +113,7 @@ export default {
         <h4 style="margin-left: 10px;">Fevereiro</h4>
           <ul class="com-bullet com-indent">
             <li>
-              Conlusão do curso de Pós-Graduação Lato-sensu em Acupuntura - Universidade Celso Lisboa - UCL;
+              Conclusão do curso de Pós-Graduação Lato-sensu em Acupuntura - Universidade Celso Lisboa - UCL;
             </li>
             <li>
               Finalizando o estágio em Acupuntura na Celso Lisboa - UCL;
@@ -301,7 +301,7 @@ export default {
           <h4 style="margin-left: 10px;">Fevereiro</h4>
           <ul class="com-bullet com-indent">
             <li>
-              Conlusão do curso de Pós-Graduação Lato-sensu em Acupuntura - Universidade Celso Lisboa - UCL;
+              Conclusão do curso de Pós-Graduação Lato-sensu em Acupuntura - Universidade Celso Lisboa - UCL;
             </li>
             <li>
               Finalizando o estágio em Acupuntura na Celso Lisboa - UCL;

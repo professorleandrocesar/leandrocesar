@@ -161,6 +161,27 @@
 
   </div>
 </template>
+<script>
+export default {
+  head: {
+    title: 'Leandro Cesar',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Sobre Leandro Cesar Ramos da Costa, Personal Leandro Cesar, Professor Leandro Cesar',
+        name: 'msapplication-TileColor', content: '#fff',
+        name: 'theme-color', content: '#fff'
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'Personal, Personal Trainer, Niterói, São Gonçalo, Professor Leandro Cesar'
+      }
+    ]
+  }
+}
+  </script>
 <style scoped>
   body {
   background: #fff;

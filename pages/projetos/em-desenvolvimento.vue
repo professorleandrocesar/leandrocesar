@@ -34,7 +34,7 @@
 <script>
 export default {
   head: {
-    title: 'Sobre | Leandro Cesar Ramos da Costa | Site',
+    title: 'Projetos em Desenvolvimento | Leandro Cesar',
     meta: [
       {
         hid: 'description',

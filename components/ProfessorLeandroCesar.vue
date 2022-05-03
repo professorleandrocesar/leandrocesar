@@ -235,16 +235,17 @@ code {
   margin: 10px 0 10px 10px; 
   height: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
 }
 
 .main-four-card a {
   border: solid .1px #dddddd54;
-  padding: 5px 15px 5px 15px;
-  margin: 0 10px 12px 0 ;
+  padding: 2px 6px;
+  margin: 10px 4px;
   border-radius: 0% 10% 10% 10%;
 }
+
 .main-four-card span {
   position: relative;
   top: -6px;

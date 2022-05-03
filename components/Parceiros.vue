@@ -288,7 +288,7 @@ box-shadow: 0px 4px 5px #ddd;
 }
 
 .main-five-card a {
-  border: solid .1px #dddddd54;
+  border: solid .1px #dddddd;
   margin: 0px 5px 20px 10px;
   width: 500px;
   border-radius: 3% 3% 3% 3%;
@@ -340,7 +340,7 @@ box-shadow: 0px 4px 5px #ddd;
 }
 
 .main-six-card a {
-  border: solid .1px #dddddd54;
+  border: solid .1px #dddddd;
   margin: 0px 5px 20px 10px;
   width: 500px;
   border-radius: 3% 3% 3% 3%;

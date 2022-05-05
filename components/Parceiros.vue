@@ -22,10 +22,7 @@
             </a> 
             <a href="https://goo.gl/maps/uQomHPQxLybkePHo7">
                 <i class="fa-solid fa-location-dot"></i> Rua Gavião Peixoto, 80 - sala: 601 - Consultório - Icaraí - Niteroi - RJ
-            </a>       
-            <a>
-                <i class="fa-solid fa-calendar-day"></i> Sáb.: 09:00 - 12:00
-            </a>       
+            </a>        
             <a href="https://api.whatsapp.com/send?phone=5521994018980">
                 <i class="fa-brands fa-whatsapp-square"></i> Agendamento
             </a>

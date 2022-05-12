@@ -2,7 +2,7 @@
   <div>
 
     <div class='profile'>
-      <img src='img/myFotoTwo.jpg' alt=''>
+      <img src='/img/myFotoTwo.jpg' alt=''>
       <div>
         <h1>Leandro Cesar</h1>
         <h4>Professor | Educador físico</h4>

@@ -4,8 +4,7 @@
             <div>
                 <a @click="$router.go(-1)"><i class="fas main-l fa-arrow-left"></i></a>
             </div>
-            <div>
-                <nuxt-link to=""><i class="fa-solid fa-person-to-door"></i></nuxt-link>
+            <div> 
                 <nuxt-link to=""><i class="fa-solid fa-share-nodes"></i></nuxt-link>
                 <nuxt-link to=""><i class="fa-solid fa-bars"></i></nuxt-link>
             </div>

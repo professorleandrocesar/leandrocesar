@@ -1,121 +1,13 @@
 <template>
   <div>
-
-    <div class='profile'>
-      <img src='img/myFotoTwo.jpg' alt=''>
-      <div>
-        <h1>Leandro Cesar</h1>
-        <h4> <i class="fa-solid fa-person-rays"></i> Empreendedor</h4>
-      </div>
-    </div>
-
-    <div class='main-one'>
-      <nuxt-link to="/deepacupuntura">
-        <i class="fa-solid fa-building"></i> Dono do Deep Acupuntura
-      </nuxt-link> 
-      <a href="https://goo.gl/maps/4bbTEUKuQDbqotTG9">
-        <i class="fa-solid fa-location-dot"></i> Niterói - Rio de Janeiro - Brasil
-      </a>       
-      <a href="https://github.com/professorleandrocesar">
-        <i class="fa-brands fa-github"></i>  GitHub
-      </a>
-    </div>
-
-    <div class='divider'></div>
-    
-    <div class='main-two'>
-      <code>
-        <i class="fa-solid fa-quote-left"></i> A felicidade não é algo que simplesmente acontece conosco. <br>É algo que nós fazemos acontecer.
-        <br>
-        Mihaly Csikszentmihalyi      
-      </code>
-    </div>  
-
-    <div class='divider'></div>
-    
     <div class='main-tree'>
       <div>
-        <h5><i class="fa-solid fa-bars-progress"></i> Projetos Ativos</h5>
-      </div>
-    </div>
-
-    <div class='main-four'>
-      <div class='main-four-card'>
-        <nuxt-link to="/professor">
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-          <span>Leandro Cesar</span>
-          <br>
-          <h4>@professorleandrocesar</h4>
-          <p>Personal trainer | Consultoria | <br>Avaliação Física | Krav-maga</p>
-        </nuxt-link>
-        <nuxt-link to="/deepacupuntura">
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-          <span>Leandro Cesar</span>
-          <br>
-          <h4>@deepacupuntura </h4>
-          <p>Clinica de Medicina Chinesa</p>
-        </nuxt-link>
-      </div>  
-    </div>  
-
-    <div class='divider'></div>
-    <div class='main-tree'>
-      <div>
-        <h5><i class="fa-brands fa-youtube"></i> YouTube - Últimas</h5>
-      </div>
-    </div>
-
-    <div class='main-five'>
-      <div class='main-five-card'>
-        <a>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-          <span>Leandro Cesar</span>
-          <br>
-          <h4><i class="fa-solid fa-angle-right"></i> Vinheta - Deep Acupuntura, para os futuros vídeos do Canal!</h4>
-            <iframe width="250" height="200" src="https://www.youtube.com/embed/4s8isgZIGDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <h4>@deepacupuntura</h4>
-        </a>
-        <!--
-        <a>
-          <img src='img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-          <span>Leandro Cesar</span>
-          <br>
-          <h4><i class="fa-solid fa-angle-right"></i> Aprenda Marleting digital do zero com anucios, dsds dsdfdf</h4>
-           <iframe width="250" height="200" src="https://www.youtube.com/embed/KWtQk_uocXg" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <h4>@professorleandrocesar</h4>
-        </a>
-    -->
-      </div>  
-    </div>  
-
-    <div class='divider'></div>
-
-    <div class='main-tree'>
-      <div>
-        <h5><i class="fa-solid fa-blog"></i> Blog - Destaques</h5>
+        <h5>Acupuntura</h5>
       </div>
     </div>
     
     <div class='main-six'>
       <div class='main-six-card'>
-      <NuxtLink to='/blog/lesoes/como-evitar-lesao-do-lca'>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-          <span>Leandro Cesar</span>
-          <br>
-          <h5>
-            <i class="fa-solid fa-angle-right"></i> Como evitar lesão do ligamento cruzado Anterior (LCA) no joelho.
-          </h5>
-          <p>
-            <b>Resumo:</b>
-            <br>
-            Ao longo dos últimos meses venho percebendo a grande incidência de dores nos joelhos em clientes de Personal e em
-            praticantes de Musculação
-            
-          </p>
-          <h4>
-            @professorleandrocesar
-          </h4>
-        </NuxtLink>
         <a href='https://deepacupuntura.com/posts/lombalgia-tai-yang/'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
@@ -156,50 +48,91 @@
       </div>  
     </div>  
 
-    <div class='divider'></div>
-
-    <div class='main-tree'>
-      <div>
-        <h5><i class="fa-solid fa-handshake"></i> Parceiros</h5>
-      </div>
-    </div>
-
-    <div class='main-seven'>
-      <div class='main-seven-card'>
-        <nuxt-link to="/parceiros"><img src="/img/carol-manna.png"></nuxt-link>
-      </div>  
-    </div>  
-
-    <div class='divider'></div>
-
     
-    <br>
-    <br>
-    <br>
 
   </div>
 </template>
 <script>
 export default {
   head: {
-    title: 'Leandro Cesar',
+    title: 'Blog | Professor Leandro Cesar',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'Sobre Leandro Cesar Ramos da Costa, Personal Leandro Cesar, Professor Leandro Cesar',
-        name: 'msapplication-TileColor', content: '#fff',
-        name: 'theme-color', content: '#fff'
+        content: 'Blog com conteúdos sobre Musculação | Personal Trainer | Consultoria | Acupuntura | Yoga | Professor Leandro Cesar'
       },
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'Personal, Personal Trainer, Niterói, São Gonçalo, Professor Leandro Cesar'
+        content: 'Personal, Musculação, Acupuntura, Yoga, Professor Leandro Cesar'
       }
     ]
+  },
+  data() {
+    return {
+      content: `
+      <a href="https://professorleandrocesar.com/blog/lesoes/joelho-lca">Lesões de Joelho - Ligamento Cruzado Anterior (LCA)</a>
+      `,
+      aplicar: true,
+      aplicarTwo: false,
+      aplicarTree: false,
+      aplicarFour: false,
+      aplicarFive: false,
+    }
+  },
+  methods: {
+    home() {
+      this.content = `
+       <a href="https://professorleandrocesar.com/blog/lesoes/joelho-lca">Lesões de Joelho - Ligamento Cruzado Anterior (LCA)</a>`,
+      this.aplicar= true,
+      this.aplicarTwo= false,
+      this.aplicarTree= false,
+      this.aplicarFour= false,
+      this.aplicarFive= false
+    },
+    acupuntura() {
+      this.content = `
+      
+      `,
+      this.aplicar= false,
+      this.aplicarTwo= true,
+      this.aplicarTree= false,
+      this.aplicarFour= false,
+      this.aplicarFive= false
+    },
+    lesoes() {
+      this.content = `
+       <a href="https://professorleandrocesar.com/blog/lesoes/joelho-lca">Lesões de Joelho - Ligamento Cruzado Anterior (LCA)</a>`,
+      this.aplicar= false,
+      this.aplicarTwo= false,
+      this.aplicarTree= true,
+      this.aplicarFour= false,
+      this.aplicarFive= false
+    },
+    biomecanica() {
+      this.content = `
+      
+      `,
+      this.aplicar= false,
+      this.aplicarTwo= false,
+      this.aplicarTree= false,
+      this.aplicarFour= true,
+      this.aplicarFive= false
+    },
+    treinamento() {
+      this.content = `
+      `,
+      this.aplicar= false,
+      this.aplicarTwo= false,
+      this.aplicarTree= false,
+      this.aplicarFour= false,
+      this.aplicarFive= true
+    }
   }
-}
-  </script>
+} 
+</script>
+
 <style scoped>
   body {
   background: #fff;
@@ -369,15 +302,18 @@ code {
 }
 
 .main-four-card {
-  height: 150px;
-  width: 600px;
+  height: 300px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
 }
 
+.main-four-card i:nth-child(9), i:nth-child(11), i:nth-child(15){
+  color: #aaa;
+}
+
 .main-four-card a {
-  border: solid 1px #dddddd;
+  border: solid .1px #dddddd;
   margin: 0px 5px 20px 10px;
   width: 500px;
   border-radius: 3% 3% 3% 3%;
@@ -403,7 +339,6 @@ code {
   flex-direction: column;
   margin: -10px 0 0 0;
   color: #555;
-  box-shadow: 0px 10px 10px#bbb;
   overflow-x:auto;
 }
 
@@ -416,19 +351,21 @@ code {
   margin-left: 10px;
 }
 
+.main-five h4{
+  margin-left: 10px;
+}
+
 .main-five-card {
-  height: 370px;
-  width: 300px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+  margin-bottom: 7px;
 }
 
 .main-five-card a {
-  border: solid 1px #dddddd;
   margin: 0px 5px 20px 10px;
-  width: 500px;
   border-radius: 3% 3% 3% 3%;
+  color: #aaa;
 }
 .main-five-card span {
   position: relative;
@@ -446,9 +383,6 @@ code {
 }
 
 .main-six {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
   margin: -10px 0 0 0;
   color: #555;
   box-shadow: 0px 10px 10px#bbb;
@@ -469,17 +403,14 @@ code {
 }
 
 .main-six-card {
-  height: 280px;
-  width: 900px;
   display: flex;
   justify-content: flex-start;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .main-six-card a {
   border: solid 1px #dddddd;
   margin: 0px 5px 20px 10px;
-  width: 500px;
   border-radius: 3% 3% 3% 3%;
 }
 .main-six-card span {
@@ -553,6 +484,18 @@ margin: 10px 0 0 10px;
 padding: 0 15px 0 0;
 }
 
+a.nuxt-link-exact-active {
+  color:#000;
+  font-weight: bold;
+}
+
+.dateYear {
+    color: #ccc;
+}
+
+.dateYearHover {
+    color: #000;
+}
 
 @media only screen and (max-width: 369px) {
 

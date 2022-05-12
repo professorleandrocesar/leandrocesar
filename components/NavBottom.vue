@@ -9,6 +9,10 @@
       <i class="fa-solid fa-diagram-project"></i>
       <h5>PROJETOS</h5>
     </NuxtLink>
+    <NuxtLink to='/blog'>
+      <i class="fa-solid fa-blog"></i>
+    <h5>BLOG</h5>
+    </NuxtLink>
     <NuxtLink to='/parceiros'>
       <i class="fa-solid fa-handshake-simple"></i>
     <h5>PARCEIROS</h5>

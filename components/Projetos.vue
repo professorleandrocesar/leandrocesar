@@ -438,7 +438,7 @@ code {
 }
 
 .main-four a {
-  border: solid .1px #dddddd;
+  border: solid 1px #dddddd;
   width: 100px;
   padding: 10px;
 border-radius: 0% 10% 10% 10%;
@@ -496,7 +496,7 @@ border-radius: 0% 10% 10% 10%;
 }
 
 .main-six-card a {
-  border: solid .1px #dddddd;
+  border: solid 1px #dddddd;
   margin: 0px 5px 20px 10px;
   width: 500px;
   border-radius: 3% 3% 3% 3%;

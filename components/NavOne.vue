@@ -2,9 +2,8 @@
     
     <div class='nav-one'>
         <div>
-            <nuxt-link to=""><i class="fa-solid fa-share-nodes"></i></nuxt-link>
-            <nuxt-link to=""><i class="fa-solid fa-bars"></i></nuxt-link>
-        
+          <nuxt-link to=""><i class="fa-solid fa-share-nodes"></i></nuxt-link>
+          <nuxt-link to=""><i class="fa-solid fa-bars"></i></nuxt-link> 
         </div>
     </div>
 
@@ -33,7 +32,7 @@
 }
 
 .nav-one i {
-  color: #0000FF;
+  color: #929292;
   margin-top: 8px;
   display: flex;
   justify-content: flex-end;

@@ -13,10 +13,6 @@
     <i class="fa-solid fa-arrows-spin"></i>
       <h5>SERVIÇOS</h5>
     </NuxtLink>
-    <NuxtLink to='/professor/blog'>
-      <i class="fa-solid fa-blog"></i>
-    <h5>BLOG</h5>
-    </NuxtLink>
   </div>
   </div>
 </template>

@@ -4,7 +4,7 @@
   <div id="main">
   
     <!-- Início Cabeçalho principal da página -->
-    <h1>{{postTitle}}</h1><h3>{{subPostTitle}}</h3>
+    <h1>{{postTitle}}</h1><h4>{{subPostTitle}}</h4>
     <h5 class="main-r">
       Autor: {{autor}}
       <br>Criado:
@@ -26,6 +26,8 @@
     </div>  
     <div v-html='outputPostOne'></div>
 
+    <br>
+    <br>
   </div>
 </div>
 </template>
@@ -51,8 +53,8 @@ head() {
   },
   data() {
       return {
-        postTitle: 'Lesões de Joelho:',
-        subPostTitle: ' Ligamento Cruzado Anterior (LCA)', /* deixar com um espaço inicial */
+        postTitle: 'Como evitar lesão do ligamento cruzado anterior (LCA) no joelho;',
+        subPostTitle: 'Revisão', /* deixar com um espaço inicial */
         area: ' Lesões | Blog', /* deixar com um espaço inicial */
         autor: ' Professor Leandro Cesar', /* deixar com um espaço inicial */
         descript: '', /* descrição de no máximo 200 caracteres */
@@ -168,12 +170,29 @@ head() {
       </p>
     </div>
           `
+          
 }
 }
 }
 </script>
 
-<style>
+<style scoped>
+h1 {
+  font-size: 1.3em;
+  margin: 0px 0 0 10px ;
+      line-height: 1.1;
+
+}
+
+h4{
+  font-size: 1em  ;
+  margin: 5px 0 0 10px ;
+}
+
+h5{
+  margin: 0px 10px 20px 0px ;
+  text-align: right;
+}
 .details {
     display: flex;
     flex-flow: row wrap;
@@ -186,10 +205,10 @@ head() {
   cursor: pointer;
 }
 .postTitle {
-  color: #d8d8d880;
+  color: #bbb;
 }
 .postTitleHover {
-  color: #fadb41;
+  color: #000;
 }
 .details a {
    color: #d8d8d880;
@@ -200,16 +219,3 @@ head() {
  }
 }
 </style>
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete

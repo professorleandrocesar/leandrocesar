@@ -268,7 +268,7 @@ code {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: -10px 0 0 0;
+  margin: 10px 0 0 0;
   color: #555;
   overflow-x:auto;
 }

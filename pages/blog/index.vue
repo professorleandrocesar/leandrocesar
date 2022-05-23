@@ -73,7 +73,7 @@
 <script>
 export default {
   head: {
-    title: 'Blog | Professor Leandro Cesar',
+    title: 'Como Evitar Lesão do LCA no Joelho | Blog | Professor Leandro Cesar',
     meta: [
       {
         hid: 'description',
@@ -286,7 +286,7 @@ code {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: -10px 0 0 0;
+  margin: 10px 0 0 0;
   color: #555;
   overflow-x:auto;
 }
@@ -306,7 +306,7 @@ code {
   flex-direction: column;
   margin: -10px 0 0 0;
   color: #555;
-  box-shadow: 0px 10px 10px#bbb;
+  box-shadow: 0px 10px 10px #bbb;
   overflow-x:auto;
 }
 
@@ -378,6 +378,7 @@ code {
   justify-content: flex-start;
   flex-direction: row;
   margin-bottom: 7px;
+  box-shadow: 0px 10px 10px #bbb;
 }
 
 .main-five-card a {

@@ -342,11 +342,13 @@ code {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 1px #eee;
+  border-radius: 0% 0% 10% 10%;
 }
 
 .main-five-card a {
-  margin: 0px 5px 20px 10px;
+  margin: 0px 5px 12px 10px;
   border-radius: 3% 3% 3% 3%;
   color: #aaa;
 }
@@ -371,7 +373,7 @@ code {
   flex-direction: column;
   margin: -10px 0 0 0;
   color: #555;
-  box-shadow: 0px 10px 10px#bbb;
+  box-shadow: 0px 10px 10px #bbb;
   overflow-x:auto;
 }
 
@@ -401,7 +403,6 @@ code {
 .main-six-card a {
   border: solid .1px #dddddd;
   margin: 0px 5px 20px 10px;
-  width: 500px;
   border-radius: 3% 3% 3% 3%;
 }
 .main-six-card span {

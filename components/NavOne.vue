@@ -32,7 +32,7 @@
 }
 
 .nav-one i {
-  color: #929292;
+  color: #0000FF;
   margin-top: 8px;
   display: flex;
   justify-content: flex-end;

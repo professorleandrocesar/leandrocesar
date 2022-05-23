@@ -43,12 +43,14 @@
 <script>
 export default {
   head: {
-    title: 'Projetos Ativos | Leandro Cesar',
+    title: 'Avaliação Física | Professor | Leandro Cesar',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'Sobre Leandro Cesar Ramos da Costa, Personal Leandro Cesar, Professor Leandro Cesar'
+        content: 'Sobre Leandro Cesar Ramos da Costa, Personal Leandro Cesar, Professor Leandro Cesar',
+        name: 'msapplication-TileColor', content: '#002937',
+        name: 'theme-color', content: '#002937'
       },
       {
         hid: 'keywords',

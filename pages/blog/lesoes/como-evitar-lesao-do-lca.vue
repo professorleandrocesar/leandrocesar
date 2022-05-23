@@ -53,8 +53,8 @@ head() {
   },
   data() {
       return {
-        postTitle: 'Como evitar lesão do ligamento cruzado anterior (LCA) no joelho;',
-        subPostTitle: 'Revisão', /* deixar com um espaço inicial */
+        postTitle: 'Como evitar lesão do ligamento LCA no joelho',
+        subPostTitle: '', /* deixar com um espaço inicial */
         area: ' Lesões | Blog', /* deixar com um espaço inicial */
         autor: ' Professor Leandro Cesar', /* deixar com um espaço inicial */
         descript: '', /* descrição de no máximo 200 caracteres */
@@ -179,7 +179,7 @@ head() {
 <style scoped>
 h1 {
   font-size: 1.3em;
-  margin: 0px 0 0 10px ;
+  margin: 20px 0 0 10px ;
       line-height: 1.1;
 
 }
@@ -212,6 +212,10 @@ h5{
 }
 .details a {
    color: #d8d8d880;
+ }
+
+ .maix{
+   margin: 10px 0 0 0;
  }
 @media only screen and (max-width: 820px) {
  .details h4, .details a{

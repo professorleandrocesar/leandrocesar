@@ -59,8 +59,8 @@ head() {
         autor: ' Professor Leandro Cesar', /* deixar com um espaço inicial */
         descript: '', /* descrição de no máximo 200 caracteres */
         key: ', , ', /* colocar 3 keywords */
-        date: '11/04/2022',
-        hours: '16:00',
+        date: '06/06/2022',
+        hours: '07:00',
         oneReeditionDate: '',
         oneReeditionHours: '',
         aplicar : true,
@@ -73,26 +73,27 @@ head() {
         aplicarSeven : '',
         outputPostOne: `
           <!-- Início do conteúdo principal -->   
-          <h4>
+          <h4 style="margin-left: 10px; margin-right: 5px;">
         Introdução
       </h4>   
-    <p>
+    <p style="margin-left: 10px; margin-right: 5px;">
       Venho percebendo relatos, de alunos e até de alguns clientes de Personal,
       queixando-se de dores nos joelhos. Na grande maioria das reclamações
       as dores estão localizadas na parte medial (interna) do joelho.
     </p>
-    <p>
+    <p style="margin-left: 10px; margin-right: 5px;">
       Nesta região medial, há uma grande incidência de entorses do Ligamento Cruzado Anterior (LCA);
-    <p>
-      <blockquote>
+      </p>
+     <blockquote>
       É uma das lesões mais
       comuns na articulação do joelho, com frequência de ocorrência de 5 a 10 vezes maior em 
       relação a lesão de outros ligamentos localizados no joelho<sup> 1</sup>. 
       </blockquote>
+      <p style="margin-left: 10px; margin-right: 5px;">
       Este texto é um esforço, para melhor entender o complexo articular do joelho, fazendo uma revisão 
       anatômica e mais específicamente entender o ligamento cruzado anterior e sua lesão ligamentar. 
     </p>
-    </p>
+    
           
           
           `,
@@ -104,27 +105,29 @@ head() {
           this.aplicarTwo = false,
           this.aplicarRef = false,
           this.outputPostOne = `
-          <!-- Início do conteúdo principal -->   
-    <h4>
+           <!-- Início do conteúdo principal -->   
+          <h4 style="margin-left: 10px; margin-right: 5px;">
         Introdução
-      </h4>      
-    <p>
+      </h4>   
+    <p style="margin-left: 10px; margin-right: 5px;">
       Venho percebendo relatos, de alunos e até de alguns clientes de Personal,
       queixando-se de dores nos joelhos. Na grande maioria das reclamações
       as dores estão localizadas na parte medial (interna) do joelho.
     </p>
-    <p>
+    <p style="margin-left: 10px; margin-right: 5px;">
       Nesta região medial, há uma grande incidência de entorses do Ligamento Cruzado Anterior (LCA);
-    <p>
-      <blockquote>
+      </p>
+     <blockquote>
       É uma das lesões mais
       comuns na articulação do joelho, com frequência de ocorrência de 5 a 10 vezes maior em 
       relação a lesão de outros ligamentos localizados no joelho<sup> 1</sup>. 
       </blockquote>
+      <p style="margin-left: 10px; margin-right: 5px;">
       Este texto é um esforço, para melhor entender o complexo articular do joelho, fazendo uma revisão 
       anatômica e mais específicamente entender o ligamento cruzado anterior e sua lesão ligamentar. 
     </p>
-    </p>
+    
+          
           `
 },
       articleAnatomia() {
@@ -132,21 +135,21 @@ head() {
           this.aplicarTwo = true,
           this.aplicarRef = false,
           this.outputPostOne = `
-          <div class='title-link'>
-      <h4>
+          <div>
+      <h4 style="margin-left: 10px; margin-right: 5px;">
         Anatomia
       </h4>
     </div>
-    <p>
+    <p style="margin-left: 10px; margin-right: 5px;">
       O joelho é uma articulação sinovial com estruturas bem complexas. É formada pelos ossos do 
       fêmur, tíbia, e patela. Conectados pelos muitos componentes articulares para garantir sua 
       movimentação e estabilidade, permitindo sustentar grandes cargas para a mobilidade, necessárias
       para as atividades locomotoras do dia-a-dia.<sup> 2</sup>.
     </p>
-    <div class="legend">
-      <img src="/img/articulacao-do-joelho.png" alt="Foto de uma articulação do joelho">
+    <div>
+      <img src="/img/articulacao-do-joelho.png" alt="Foto de uma articulação do joelho" style="margin-left: 10px; height:400px;">
       <br>
-      <sub>Corte sagital do Joelho direito (Rasch e Burke, 1986 p.340) <sup> 3</sup></sub>    
+      <sub style="margin-left: 10px; margin-right: 5px;">Corte sagital do Joelho direito (Rasch e Burke, 1986 p.340) <sup> 3</sup></sub>    
     </div>
     <p>
     </p>
@@ -159,16 +162,14 @@ head() {
           this.aplicarRef = true,
           this.aplicarTwo = false,
           this.outputPostOne = `
-          <div class="refer">
-      <h4>Referências Bibliográficas:</h4>
-      <p>
+      <h4 style="margin-left: 10px; margin-right: 5px;">Referências Bibliográficas:</h4>
+      <p style="margin-left: 10px; margin-right: 5px;">
         1) (Macnicol, 2002)
         <br>
         2) Biomecânica Básica
         <br>
         3) Rasch e Burke    
       </p>
-    </div>
           `
           
 }
@@ -214,12 +215,5 @@ h5{
    color: #d8d8d880;
  }
 
- .maix{
-   margin: 10px 0 0 0;
- }
-@media only screen and (max-width: 820px) {
- .details h4, .details a{
-   font-size: 1.2em;
- }
-}
+
 </style>

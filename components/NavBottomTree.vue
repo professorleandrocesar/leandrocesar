@@ -5,13 +5,13 @@
       <i class="fas fasi-nav fa-home"></i>
       <h5>INÍCIO</h5>
     </NuxtLink>
-     <NuxtLink to='/projetos/ativos'>
-      <i class="fa-solid fa-diagram-project"></i>
-      <h5>PROJETOS</h5>
+     <NuxtLink to='/deepacupuntura'>
+      <i class="fa-solid fa-yin-yang"></i>
+      <h5>ACUPUNTURA</h5>
     </NuxtLink>
-    <NuxtLink to='/parceiros'>
-      <i class="fa-solid fa-handshake-simple"></i>
-    <h5>PARCEIROS</h5>
+     <NuxtLink to='/deepacupuntura/servicos'>
+    <i class="fa-solid fa-arrows-spin"></i>
+      <h5>TERAPIAS</h5>
     </NuxtLink>
     <NuxtLink to='/blog'>
       <i class="fa-solid fa-blog"></i>
@@ -38,8 +38,8 @@ i {
   position: fixed;
   bottom: .1px;
   width: 100%;
-  background-color: #fff;
-  color: #dbd1d1;
+  background-color: #860d0d;
+  color: #fff;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -47,7 +47,7 @@ i {
   align-self: center;
   line-height: 0;
   border-radius: 10% 10% 0% 0%;
-  box-shadow: 0px 2px 3px #000;
+  box-shadow: 0px 2px 3px #fadb41;
 }
 
 .nav-bottom div {
@@ -68,13 +68,13 @@ i {
   align-items: center;
   justify-content: center;
   align-self: center;
-  color: #888;
+  color: #ffffff80;
   font-size: .9em;
   margin: 10px 0 0px 0;
 }
 
 .nav-bottom a.nuxt-link-exact-active {
-  color: #000;
+  color: #fff;
 }
 
 </style>

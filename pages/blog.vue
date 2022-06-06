@@ -375,6 +375,7 @@ code {
   color: #555;
   box-shadow: 0px 10px 10px #bbb;
   overflow-x:auto;
+  height: 1000px
 }
 
 .main-six i {
@@ -385,6 +386,11 @@ code {
 .main-six-card h4{
   margin-left: 30px;
 }
+
+.main-six-card .legend img{
+  height: 30px;
+}
+
 .main-six h5{
   margin-left: 10px;
 }

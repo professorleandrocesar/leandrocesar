@@ -13,9 +13,9 @@
       <nuxt-link to="/deepacupuntura">
         <i class="fa-solid fa-building"></i> Dono do Deep Acupuntura
       </nuxt-link> 
-      <a href="https://goo.gl/maps/4bbTEUKuQDbqotTG9">
-        <i class="fa-solid fa-location-dot"></i> Niterói - Rio de Janeiro - Brasil
-      </a>       
+      <nuxt-link to="/professor">
+        <i class="fa-solid fa-dumbbell"></i> Professor de Educação Física
+      </nuxt-link>       
       <a href="https://github.com/professorleandrocesar">
         <i class="fa-brands fa-github"></i>  GitHub
       </a>
@@ -183,20 +183,27 @@
 export default {
   head: {
     title: 'Leandro Cesar',
+    htmlAttrs: {
+      lang: 'pt-br'
+    },
     meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Sobre Leandro Cesar Ramos da Costa, Personal Leandro Cesar, Professor Leandro Cesar',
-        name: 'msapplication-TileColor', content: '#fff',
-        name: 'theme-color', content: '#fff'
-      },
-      {
-        hid: 'keywords',
-        name: 'keywords',
-        content: 'Personal, Personal Trainer, Niterói, São Gonçalo, Professor Leandro Cesar'
-      }
-    ]
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Professor Leandro Cesar Ramos da Costa | Site para Conteúdos e Serviços => Personal Trainer | Consultoria Online e Presencial | Acupuntura | Atendimentos em Niterói e São Gonçalo - RJ' },
+      { hid: 'keywords', name: 'description', content: 'Personal trainer, Acupuntura, Consultoria' },
+      { name: 'format-detection', content: 'telephone=no' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/img/favicon.svg' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
+      { rel: 'icon', type:'image/png', size: '32x32', href: '/img/favicon-32x32.png' },
+      { rel: 'icon', type:'image/png', size: '16x16', href: '/img/favicon-16x16.png' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
+      { rel: 'manifest', href: '/img/site.webmanifest' },
+      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#002937' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Philosopher&display=swap' }
+    ],
   }
 }
   </script>
@@ -310,6 +317,11 @@ code {
 .main-one a:nth-child(1) i, .main-one a:nth-child(2) i{
   padding-right: 4px;
   margin: 0 0 0 3px;
+}
+
+.main-one a:nth-child(2) i{
+  padding-right: 1px;
+  margin: 0 0 0 0;
 }
 
 .main-one a:nth-child(3) i{

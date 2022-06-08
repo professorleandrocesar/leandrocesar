@@ -423,6 +423,7 @@ code {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 10px 0 0 0;
   color: #555;
   overflow-x:auto;
@@ -440,7 +441,7 @@ code {
 .main-four a {
   border: solid 1px #dddddd;
   width: 100px;
-  padding: 10px;
+  padding: 9px 5px 5px 5px;
 border-radius: 0% 10% 10% 10%;
 }
 

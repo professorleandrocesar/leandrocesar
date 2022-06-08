@@ -2,7 +2,7 @@
   <div>
 
     <div class='profile'>
-      <img src='/img/MyLogoBold.png' alt=''>
+      <img src='/img/MyLogoBold.svg' alt=''>
       <div>
         <h1>Deep Acupuntura</h1>
         <h4>| Tratando a Raiz do Seu Problema | </h4>

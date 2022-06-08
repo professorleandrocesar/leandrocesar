@@ -14,7 +14,7 @@
         <i class="fa-solid fa-building"></i> Dono do Deep Acupuntura
       </nuxt-link> 
       <nuxt-link to="/professor">
-        <i class="fa-solid fa-dumbbell"></i> Professor de Educação Física
+        <i class="fa-solid fa-dumbbell"></i> Profissional de Educação Física
       </nuxt-link>       
       <a href="https://github.com/professorleandrocesar">
         <i class="fa-brands fa-github"></i>  GitHub

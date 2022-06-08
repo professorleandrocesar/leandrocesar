@@ -12,6 +12,16 @@ export default {
     htmlAttrs: {
       lang: 'pt-br'
     },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Professor Leandro Cesar Ramos da Costa | Site para Conteúdos e Serviços => Personal Trainer | Consultoria Online e Presencial | Acupuntura | Atendimentos em Niterói e São Gonçalo - RJ' },
+      { hid: 'keywords', name: 'description', content: 'Personal trainer, Acupuntura, Consultoria' },
+      { name: 'format-detection', content: 'telephone=no' }
+    ],
+    link: [
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Philosopher&display=swap' }
+    ],
     script: [
       { src: 'https://kit.fontawesome.com/da2962ce7f.js' },
       { src: '/index.js'},

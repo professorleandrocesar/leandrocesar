@@ -16,7 +16,7 @@
       <a href="https://goo.gl/maps/4bbTEUKuQDbqotTG9">
         <i class="fa-solid fa-location-dot"></i> Rua da Conceição, 125 - Centro - Niterói
       </a>   
-      <a href="https://deepacupuntura.com">
+      <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Leandro,%20quero%20marcar%20minha%20sess%C3%A3o!">
         <i class="fa-brands fa-whatsapp-square"></i> Agendar horário
       </a>
     </div>
@@ -25,12 +25,11 @@
     
     <div class='main-two'>
       <code>
-        <b></b>
-        <br>
-        Bora treinar junto! 
+        <b>
+          Conheça esta técnica milenar, natural e segura, para melhorar sua condição física,
+          mental e espiritual!
+        </b>
       </code>
-      <a href='https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Leandro%20Cesar,%20fiquei%20interessado(a)%20na%20sua%20Consultoria%20e%20nos%20seus%20Servi%C3%A7os,%20me%20chamo%20'>
-      <i class="fa-brands fa-whatsapp"></i> Marcar Horário
       </a>
     </div>  
 
@@ -103,8 +102,10 @@ i {
 }
 
 code {
-  font-size: 0.8em;
+  font-size: 0.6em;
   padding-left: 10px;
+  margin-left: 15px;
+  margin-right: 60px;
   border-left: solid 5px #fff;
   color:#ddd;
 }
@@ -248,7 +249,7 @@ code {
 }
 
 .main-four-card {
-  margin: 10px 0 10px 10px; 
+  margin: -10px 0 10px 10px; 
   height: 50px;
   display: flex;
   justify-content: flex-start;

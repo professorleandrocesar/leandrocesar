@@ -83,7 +83,7 @@
 <script>
 export default {
   head: {
-    title: 'Leandro Cesar',
+    title: 'Sobre | Leandro Cesar',
     htmlAttrs: {
       lang: 'pt-br'
     },
@@ -102,8 +102,7 @@ export default {
       { rel: 'icon', type:'image/png', size: '16x16', href: '/img/favicon-16x16.png' },
       { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
       { rel: 'manifest', href: '/img/site.webmanifest' },
-      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#002937' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Philosopher&display=swap' }
+      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#002937' }
     ],
   },
   data() {

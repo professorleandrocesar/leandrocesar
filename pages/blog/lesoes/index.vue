@@ -37,7 +37,7 @@
 <script>
 export default {
   head: {
-    title: 'Blog | Professor Leandro Cesar',
+    title: 'Lesões | Blog | Professor Leandro Cesar',
     meta: [
       {
         hid: 'description',

@@ -55,7 +55,7 @@
 <script>
 export default {
   head: {
-    title: 'Blog | Professor Leandro Cesar',
+    title: 'Acupuntura | Blog | Professor Leandro Cesar',
     meta: [
       {
         hid: 'description',

@@ -29,17 +29,25 @@
 export default {
   head: {
     title: 'Projetos | Leandro Cesar',
+    htmlAttrs: {
+      lang: 'pt-br'
+    },
     meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Sobre Leandro Cesar Ramos da Costa, Personal Leandro Cesar, Professor Leandro Cesar'
-      },
-      {
-        hid: 'keywords',
-        name: 'keywords',
-        content: 'Personal, Personal Trainer, Niterói, São Gonçalo, Professor Leandro Cesar'
-      }
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Professor Leandro Cesar Ramos da Costa | Site para Conteúdos e Serviços => Personal Trainer | Consultoria Online e Presencial | Acupuntura | Atendimentos em Niterói e São Gonçalo - RJ' },
+      { hid: 'keywords', name: 'description', content: 'Personal trainer, Acupuntura, Consultoria' },
+      { name: 'format-detection', content: 'telephone=no' }
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/img/favicon.svg' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
+      { rel: 'icon', type:'image/png', size: '32x32', href: '/img/favicon-32x32.png' },
+      { rel: 'icon', type:'image/png', size: '16x16', href: '/img/favicon-16x16.png' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
+      { rel: 'manifest', href: '/img/site.webmanifest' },
+      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#002937' }
     ]
   },
   data() {

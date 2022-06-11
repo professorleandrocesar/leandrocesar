@@ -1,65 +1,66 @@
 <template>
-    <div>
+  <div>
 
     <div class='main-four'>
 
-        <h5>
-            Clique em um dos serviços abaixo! 👇
-        </h5>
-     </div>   
-    <div class='main-five'>
-    
-        <div @click="personal" class='main-five-card'>
-            <div>
-                <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-                <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-            </div>
-            <div>
-                <h4>Personal Trainer</h4>
-                <h5>R$ 50,00 hora/aula</h5>
-                <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
-            </div>
-        </div>
-        <div @click="personal" class='main-five-card'>
-            <div>
-                <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-                <p><i class="fa-solid fa-camera"></i> Serviço Digital</p>
-            </div>
-            <div>
-                <h4>Consultoria on-line</h4>
-                <h5>R$ 50,00</h5>
-                <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
-            </div>
-        </div>
-        <div @click="personal" class='main-five-card'>
-            <div>
-                <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-                <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-            </div>
-            <div>
-                <h4>Avaliação Fisica</h4>
-                <h5>R$ 50,00</h5>
-                <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
-            </div>
-        </div>
-        <div @click="personal" class='main-five-card'>
-            <div>
-                <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-                <p>Serviços:<br> <i class="fa-solid fa-people-arrows-left-right"></i> presencial <br>+<br><i class="fa-solid fa-camera"></i> Digital </p>
-                
-            </div>
-            <div>
-                <h4>Avaliação Física + Consultoria online</h4>
-                <h5>R$ 75,00</h5>
-                <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
-            </div>
-        </div>
-            <br>
-            
-        <div @click="personal" class='main-five-card'>
-        </div>
-    </div>  
+      <h5>
+        Clique em um dos serviços abaixo! 👇
+      </h5>
     </div>
+    <div class='main-five'>
+
+      <div @click="personal" class='main-five-card'>
+        <div>
+          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
+          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
+        </div>
+        <div>
+          <h4>Personal Trainer</h4>
+          <h5>R$ 50,00 hora/aula</h5>
+          <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
+        </div>
+      </div>
+      <div @click="personal" class='main-five-card'>
+        <div>
+          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
+          <p><i class="fa-solid fa-laptop"></i> Serviço Digital</p>
+        </div>
+        <div>
+          <h4>Consultoria on-line</h4>
+          <h5>R$ 50,00</h5>
+          <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
+        </div>
+      </div>
+      <div @click="personal" class='main-five-card'>
+        <div>
+          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
+          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
+        </div>
+        <div>
+          <h4>Avaliação Fisica</h4>
+          <h5>R$ 50,00</h5>
+          <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
+        </div>
+      </div>
+      <div @click="personal" class='main-five-card'>
+        <div>
+          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
+          <p>Serviços:<br> <i class="fa-solid fa-people-arrows-left-right"></i> presencial <br>+<br><i
+              class="fa-solid fa-laptop"></i> Digital </p>
+
+        </div>
+        <div>
+          <h4>Avaliação Física + Consultoria online</h4>
+          <h5>R$ 75,00</h5>
+          <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
+        </div>
+      </div>
+      <br>
+
+      <div @click="personal" class='main-five-card'>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 export default {

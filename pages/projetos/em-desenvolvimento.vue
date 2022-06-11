@@ -7,7 +7,7 @@
       </div>
     </div>
 
-    <div class='main-four'>
+    <div class='main-four'> 
         <div to="/professor">
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
@@ -19,13 +19,6 @@
           <a href='https://github.com/professorleandrocesar/espirita.xyz'><i class="fa-brands fa-github-square"></i> espirita.xyz</a>
           -->
           <p>Espiristismo para todas as gerações</p>
-        </div>
-        <div to="/deepacupuntura">
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-          <span>Leandro Cesar</span>
-          <br>
-          <h4>@sjsxxi </h4>
-          <p>Sociologia para Jovens do Século XXI</p>
         </div>
     </div>  
     <nuxt-child />

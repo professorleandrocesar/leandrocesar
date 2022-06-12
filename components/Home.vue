@@ -12,27 +12,27 @@
     <div class='main-one'>
       <nuxt-link to="/deepacupuntura">
         <i class="fa-solid fa-building"></i> Dono do Deep Acupuntura
-      </nuxt-link> 
+      </nuxt-link>
       <nuxt-link to="/professor">
         <i class="fa-solid fa-dumbbell"></i> Profissional de Educação Física
-      </nuxt-link>       
+      </nuxt-link>
       <a href="https://github.com/professorleandrocesar">
-        <i class="fa-brands fa-github"></i>  GitHub
+        <i class="fa-brands fa-github"></i> GitHub
       </a>
     </div>
 
     <div class='divider'></div>
-    
+
     <div class='main-two'>
       <code>
         <i class="fa-solid fa-quote-left"></i> A felicidade não é algo que simplesmente acontece conosco. <br>É algo que nós fazemos acontecer.
         <br>
         Mihaly Csikszentmihalyi      
       </code>
-    </div>  
+    </div>
 
     <div class='divider'></div>
-    
+
     <div class='main-tree'>
       <div>
         <h5><i class="fa-solid fa-bars-progress"></i> Projetos Ativos</h5>
@@ -42,21 +42,21 @@
     <div class='main-four'>
       <div class='main-four-card'>
         <nuxt-link to="/professor">
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
+          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
           <span>Leandro Cesar</span>
           <br>
           <h4>@professorleandrocesar</h4>
           <p>Personal trainer | Consultoria | <br>Avaliação Física | Krav-maga</p>
         </nuxt-link>
         <nuxt-link to="/deepacupuntura">
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
+          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
           <span>Leandro Cesar</span>
           <br>
           <h4>@deepacupuntura </h4>
           <p>Clinica de Medicina Chinesa</p>
         </nuxt-link>
-      </div>  
-    </div>  
+      </div>
+    </div>
 
     <div class='divider'></div>
     <div class='main-tree'>
@@ -68,11 +68,14 @@
     <div class='main-five'>
       <div class='main-five-card'>
         <a>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
+          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
           <span>Leandro Cesar</span>
           <br>
           <h4><i class="fa-solid fa-angle-right"></i> Vinheta - Deep Acupuntura, para os futuros vídeos do Canal!</h4>
-            <iframe width="250" height="200" src="https://www.youtube.com/embed/4s8isgZIGDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="250" height="200" src="https://www.youtube.com/embed/4s8isgZIGDg" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
           <h4>@deepacupuntura</h4>
         </a>
         <!--
@@ -85,8 +88,8 @@
           <h4>@professorleandrocesar</h4>
         </a>
     -->
-      </div>  
-    </div>  
+      </div>
+    </div>
 
     <div class='divider'></div>
 
@@ -95,10 +98,10 @@
         <h5><i class="fa-solid fa-blog"></i> Blog - Destaques</h5>
       </div>
     </div>
-    
+
     <div class='main-six'>
       <div class='main-six-card'>
-      <!--<NuxtLink to='/blog/lesoes/como-evitar-lesao-do-lca'>
+        <!--<NuxtLink to='/blog/lesoes/como-evitar-lesao-do-lca'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
           <br>
@@ -117,8 +120,8 @@
           </h4>
         </NuxtLink>
         -->
-        <a href='https://deepacupuntura.com/posts/lombalgia-tai-yang/'>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
+        <nuxt-link to='/blog/acupuntura/lombalgia-tai-yang/'>
+          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
           <span>Leandro Cesar</span>
           <br>
           <h5>
@@ -128,34 +131,36 @@
           <p>
             <b>Resumo:</b>
             <br>
-            A Medicina Tradicional Chinesa (MTC) tem sua origem das combinações da prática da moxabustão, acupuntura e da farmacologia natural cujos ...
+            A Medicina Tradicional Chinesa (MTC) tem sua origem das combinações da prática da moxabustão, acupuntura e
+            da farmacologia natural cujos ...
           </p>
           <h4>
             @deepacupuntura
           </h4>
-        </a>
-        <a href='https://deepacupuntura.com/posts/auriculoterapia-visao-oriental-ocidental/'>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-          <span>Leandro Cesar</span>
-          <br>
-          <h5>
-            <i class="fa-solid fa-angle-right"></i> 
-            AURICULOTERAPIA:
-            Uma Visão Geral Dentro do
-            Pensamento Oriental e Ocidental
-          </h5>
-          <p>
-            <b>Resumo:</b>
+          </nuxt-link>
+          <nuxt-link to='/blog/acupuntura/auriculoterapia-visao-oriental-ocidental'>
+            <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
+            <span>Leandro Cesar</span>
             <br>
-            Segundo Oleson (2003) a auriculoterapia é uma modalidade de saúde em que a superfície externa da orelha, ou aurícula, é estimulada para a...
-          </p>
-          <h4>
-            @deepacupuntura
-          </h4>
-        </a>
-       
-      </div>  
-    </div>  
+            <h5>
+              <i class="fa-solid fa-angle-right"></i>
+              AURICULOTERAPIA:
+              Uma Visão Geral Dentro do
+              Pensamento Oriental e Ocidental
+            </h5>
+            <p>
+              <b>Resumo:</b>
+              <br>
+              Segundo Oleson (2003) a auriculoterapia é uma modalidade de saúde em que a superfície externa da orelha,
+              ou aurícula, é estimulada para a...
+            </p>
+            <h4>
+              @deepacupuntura
+            </h4>
+          </nuxt-link>
+
+      </div>
+    </div>
 
     <div class='divider'></div>
 
@@ -168,12 +173,12 @@
     <div class='main-seven'>
       <div class='main-seven-card'>
         <nuxt-link to="/parceiros"><img src="/img/carol-manna.png"></nuxt-link>
-      </div>  
-    </div>  
+      </div>
+    </div>
 
     <div class='divider'></div>
 
-    
+
     <br>
     <br>
     <br>

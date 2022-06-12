@@ -98,7 +98,7 @@
     
     <div class='main-six'>
       <div class='main-six-card'>
-      <NuxtLink to='/blog/lesoes/como-evitar-lesao-do-lca'>
+      <!--<NuxtLink to='/blog/lesoes/como-evitar-lesao-do-lca'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
           <br>
@@ -116,6 +116,7 @@
             @professorleandrocesar
           </h4>
         </NuxtLink>
+        -->
         <a href='https://deepacupuntura.com/posts/lombalgia-tai-yang/'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
@@ -482,7 +483,7 @@ code {
 
 .main-six-card {
   height: 280px;
-  width: 900px;
+  width: 600px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;

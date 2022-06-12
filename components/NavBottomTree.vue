@@ -9,7 +9,7 @@
       <i class="fa-solid fa-yin-yang"></i>
       <h5>ACUPUNTURA</h5>
     </NuxtLink>
-     <NuxtLink to='/deepacupuntura/servicos'>
+     <NuxtLink to='/terapias'>
     <i class="fa-solid fa-arrows-spin"></i>
       <h5>TERAPIAS</h5>
     </NuxtLink>
@@ -47,7 +47,7 @@ i {
   align-self: center;
   line-height: 0;
   border-radius: 10% 10% 0% 0%;
-  box-shadow: 0px 2px 3px #fadb41;
+  box-shadow: 0px 2px 3px #e23a28;
 }
 
 .nav-bottom div {

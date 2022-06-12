@@ -11,8 +11,10 @@
             <NuxtLink to='/blog' class='dateYear'>Início</NuxtLink>
             <h4 class='dateYear' >|</h4>
             <NuxtLink to='/blog/acupuntura' class='dateYear'> Acupuntura</NuxtLink>        
+          <!--
             <h4 class='dateYear' >|</h4>
             <NuxtLink to='/blog/lesoes' class='dateYear'> Lesões</NuxtLink>        
+          -->
       </div>  
     </div>  
     
@@ -383,7 +385,6 @@ code {
   color: #555;
   box-shadow: 0px 10px 10px #bbb;
   overflow-x:auto;
-  height: 1000px
 }
 
 .main-six i {
@@ -408,7 +409,6 @@ code {
 }
 
 .main-six-card {
-  height: 680px;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;

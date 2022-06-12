@@ -4,61 +4,64 @@
     <div class='main-four'>
 
       <h5>
-        Clique em um dos serviços abaixo! 👇
+        Clique em uma das terapias abaixo! 👇
       </h5>
     </div>
     <div class='main-five'>
 
       <div @click="personal" class='main-five-card'>
         <div>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
+          <img src='/img/MyLogoBold.svg' alt='' class='mini-profile'>
           <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
         </div>
         <div>
-          <h4>Personal Trainer</h4>
-          <h5>R$ 50,00 hora/aula</h5>
-          <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
+          <h4>Acupuntura Sistêmica</h4>
+          <h5>R$ 70,00 - 1 sessão</h5>
+          <h5>R$ 200,00 - Pacote de 4 sessões</h5>
+          <p>Técnica chinesa milenar, em que os pontos se localizam ao longo de todo o corpo.</p>
         </div>
       </div>
       <div @click="personal" class='main-five-card'>
         <div>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
-          <p><i class="fa-solid fa-laptop"></i> Serviço Digital</p>
-        </div>
-        <div>
-          <h4>Consultoria on-line</h4>
-          <h5>R$ 50,00</h5>
-          <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
-        </div>
-      </div>
-      <div @click="personal" class='main-five-card'>
-        <div>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
+          <img src='/img/MyLogoBold.svg' alt='' class='mini-profile'>
           <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
         </div>
         <div>
-          <h4>Avaliação Fisica</h4>
-          <h5>R$ 50,00</h5>
-          <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
+          <h4>Crâniopuntura</h4>
+          <h5>R$ 70,00 - 1 sessão</h5>
+          <h5>R$ 200,00 - Pacote de 4 sessões</h5>
+          <p>Técnica chinesa que trata doenças de origem neural ou visceral, relacionadas com o córtex cerebral.</p>
         </div>
       </div>
       <div @click="personal" class='main-five-card'>
         <div>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
-          <p>Serviços:<br> <i class="fa-solid fa-people-arrows-left-right"></i> presencial <br>+<br><i
-              class="fa-solid fa-laptop"></i> Digital </p>
+          <img src='/img/MyLogoBold.svg' alt='' class='mini-profile'>
+          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
+        </div>
+        <div>
+          <h4>Ventosaterapia</h4>
+          <h5>R$ 50,00 - 1 sessão</h5>
+          <h5>R$ 150,00 - Pacote de 4 sessões</h5>
+          <p>Visa eliminar toxinas e retirar estagnações do sangue em determinadas zonas do corpo.</p>
+        </div>
+      </div>
+      <div @click="personal" class='main-five-card'>
+        <div>
+          <img src='/img/MyLogoBold.svg' alt='' class='mini-profile'>
+          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
 
         </div>
         <div>
-          <h4>Avaliação Física + Consultoria online</h4>
-          <h5>R$ 75,00</h5>
-          <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
+          <h4>Auriculoterapia</h4>
+          <h5>R$ 50,00 - 1 sessão</h5>
+          <h5>R$ 150,00 - Pacote de 4 sessões</h5>
+          <p>Técnica de acupuntura que utiliza a orelha para avaliação e tratamento das disfunções.</p>
         </div>
       </div>
+      
+      <br>
       <br>
 
-      <div @click="personal" class='main-five-card'>
-      </div>
     </div>
   </div>
 </template>
@@ -499,10 +502,10 @@ code {
   justify-content: flex-start;
   flex-direction: column;
   margin: -5px 0 0 0;
-  padding: 10px 0 15px 0;
+  padding: 10px 0 10px 0;
   color: #fff;  
   background-color: #860d0d;  
-  box-shadow: 0px 10px 5px #fadb41;
+  box-shadow: 0px 10px 5px #fff;
   overflow-x:auto;
   display: flex;
   justify-content: flex-start;
@@ -567,9 +570,9 @@ padding: 0 15px 0 0;
   margin: -10px 0 0 0;
   color: #fff;  
   background-color: #860d0d;  
-  box-shadow: 0px 10px 5px #fadb41;
+  box-shadow: 0px 10px 5px #860d0d;
   overflow-x:auto;
-  height: 500px;
+  height: 900px;
   display: flex;
   justify-content: flex-start;
   flex-direction: collumn;
@@ -598,7 +601,7 @@ padding: 0 15px 0 0;
 }
 .main-five h5{
   margin: 0px 10px 0px 10px;
-  color: green;
+  color: #7FFFD4;
 }
 
 .main-five div {

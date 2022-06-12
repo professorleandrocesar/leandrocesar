@@ -1,93 +1,48 @@
 <template>
-    <div>
-    <NavTwo/>
-    <NavBottomTwo/>
+  <div>
 
     <div class='main-four'>
 
-        <h5>
-            Clique em um dos serviços abaixo! 👇
-        </h5>
-     </div>   
-    <div class='main-five'>
-    
-        <div @click="personal" class='main-five-card'>
-            <div>
-                <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-                <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-            </div>
-            <div>
-                <h4>Personal Trainer</h4>
-                <h5>R$ 50,00 hora/aula</h5>
-                <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
-            </div>
-        </div>
-        <div @click="personal" class='main-five-card'>
-            <div>
-                <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-                <p><i class="fa-solid fa-camera"></i> Serviço Digital</p>
-            </div>
-            <div>
-                <h4>Consultoria on-line</h4>
-                <h5>R$ 50,00</h5>
-                <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
-            </div>
-        </div>
-        <div @click="personal" class='main-five-card'>
-            <div>
-                <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-                <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
-            </div>
-            <div>
-                <h4>Avaliação Fisica</h4>
-                <h5>R$ 50,00</h5>
-                <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
-            </div>
-        </div>
-        <div @click="personal" class='main-five-card'>
-            <div>
-                <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-                <p>Serviços:<br> <i class="fa-solid fa-people-arrows-left-right"></i> presencial <br>+<br><i class="fa-solid fa-camera"></i> Digital </p>
-                
-            </div>
-            <div>
-                <h4>Avaliação Física + Consultoria online</h4>
-                <h5>R$ 75,00</h5>
-                <p>Serviço de Personal trainer, para treinamento personalizados em academias; </p>
-            </div>
-        </div>
-            <br>
-            <br>
-            
-    </div>  
+      <h5>
+        Clique em uma das terapias abaixo! 👇
+      </h5>
     </div>
+    <div class='main-five'>
+
+      <div @click="personal" class='main-five-card'>
+        <div>
+          <img src='/img/MyLogoBold.svg' alt='' class='mini-profile'>
+          <p><i class="fa-solid fa-people-arrows-left-right"></i> Serviço presencial</p>
+        </div>
+        <div>
+          <h4>Ventosaterapia</h4>
+          <h5>R$ 50,00 - 1 sessão</h5>
+          <h5>R$ 150,00 - Pacote de 4 sessões</h5>
+          <p>Visa eliminar toxinas e retirar estagnações do sangue em determinadas zonas do corpo.</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 </template>
 <script>
 export default {
   head: {
-    title: 'Serviçoes | Professor Leandro Cesar',
-    htmlAttrs: {
-      lang: 'pt-br'
-    },
+    title: 'Professor | Leandro Cesar',
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Professor Leandro Cesar Ramos da Costa | Site para Conteúdos e Serviços => Personal Trainer | Consultoria Online e Presencial | Acupuntura | Atendimentos em Niterói e São Gonçalo - RJ' },
-      { hid: 'keywords', name: 'description', content: 'Personal trainer, Acupuntura, Consultoria' },
-      { name: 'format-detection', content: 'telephone=no' },
-      { name: 'msapplication-TileColor', content: '#002937' },
-      { name: 'theme-color', content: '#002937' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' },
-      { rel: 'shortcut icon', type: 'image/x-icon', href: '/img/favicon.svg' },
-      { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
-      { rel: 'icon', type:'image/png', size: '32x32', href: '/img/favicon-32x32.png' },
-      { rel: 'icon', type:'image/png', size: '16x16', href: '/img/favicon-16x16.png' },
-      { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
-      { rel: 'manifest', href: '/img/site.webmanifest' },
-      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#002937' }
-    ],
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Sobre Leandro Cesar Ramos da Costa, Personal Leandro Cesar, Professor Leandro Cesar',
+        name: 'msapplication-TileColor', content: '#860d0d',
+        name: 'theme-color', content: '#860d0d'
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'Personal, Personal Trainer, Niterói, São Gonçalo, Professor Leandro Cesar'
+      }
+    ]
   },
   data() {
       return {
@@ -506,11 +461,11 @@ code {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: -10px 0 0 0;
-  padding: 0 0 15px 0;
+  margin: -5px 0 0 0;
+  padding: 10px 0 10px 0;
   color: #fff;  
-  background-color: #002937;  
-  box-shadow: 0px 10px 5px #fadb41;
+  background-color: #860d0d;  
+  box-shadow: 0px 10px 5px #fff;
   overflow-x:auto;
   display: flex;
   justify-content: flex-start;
@@ -535,7 +490,7 @@ code {
 }
 
 .main-four h5:nth-child(1){
-  margin: 15px auto 5px auto;
+  margin: 0px auto 5px auto;
   color: #fff;
 }
 .main-four h5{
@@ -574,10 +529,10 @@ padding: 0 15px 0 0;
   flex-direction: column;
   margin: -10px 0 0 0;
   color: #fff;  
-  background-color: #002937;  
-  box-shadow: 0px 10px 5px #fadb4180;
+  background-color: #860d0d;  
+  box-shadow: 0px 10px 5px #fadb41;
   overflow-x:auto;
-  height: 900px;
+  height: 500px;
   display: flex;
   justify-content: flex-start;
   flex-direction: collumn;

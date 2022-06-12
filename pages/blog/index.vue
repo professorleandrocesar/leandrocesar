@@ -8,6 +8,7 @@
     
     <div class='main-six'>
       <div class='main-six-card'>
+      <!--
         <NuxtLink to='/blog/lesoes/como-evitar-lesao-do-lca'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
@@ -26,7 +27,8 @@
             @professorleandrocesar
           </h4>
         </NuxtLink>
-        <a href='https://deepacupuntura.com/posts/lombalgia-tai-yang/'>
+        -->
+        <nuxt-link to='/blog/acupuntura/lombalgia-tai-yang'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
           <br>
@@ -42,8 +44,8 @@
           <h4>
             @deepacupuntura
           </h4>
-        </a>
-        <a href='https://deepacupuntura.com/posts/auriculoterapia-visao-oriental-ocidental/'>
+        </nuxt-link>
+        <nuxt-link to='/blog/acupuntura/auriculoterapia-visao-oriental-ocidental'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
           <br>
@@ -61,7 +63,7 @@
           <h4>
             @deepacupuntura
           </h4>
-        </a>
+        </nuxt-link>
        
       </div>  
     </div>  

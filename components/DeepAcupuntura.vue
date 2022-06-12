@@ -37,17 +37,16 @@
     
     <div class='main-tree'>
       <div>
-        <h5><i class="fa-solid fa-arrows-spin"></i> Serviços</h5>
+        <h5><i class="fa-solid fa-arrows-spin"></i> Terapias</h5>
       </div>
     </div>
     <div class='main-four'>
       <div class='main-four-card'>
-        <nuxt-link to="/professor/">Todos</nuxt-link>
-        <nuxt-link to="/professor/personal">Acupuntura</nuxt-link>
-        <nuxt-link to="/professor/consultoria">Crâniopuntura</nuxt-link>
-        <nuxt-link to="/professor/avaliacao">Auriculoterapia</nuxt-link>
-        <nuxt-link to="/professor/avaliacao">Ventosaterapia</nuxt-link>
-        <nuxt-link to="/professor/avaliacao">Fórmulas</nuxt-link>
+        <nuxt-link to="/deepacupuntura">Todas</nuxt-link>
+        <nuxt-link to="/deepacupuntura/acupuntura">Acupuntura</nuxt-link>
+        <nuxt-link to="/deepacupuntura/craniopuntura">Crâniopuntura</nuxt-link>
+        <nuxt-link to="/deepacupuntura/ventosaterapia">Ventosaterapia</nuxt-link>
+        <nuxt-link to="/deepacupuntura/auriculoterapia">Auriculoterapia</nuxt-link>
       </div>
     </div>
 
@@ -82,9 +81,8 @@ export default {
       { rel: 'icon', type:'image/png', size: '16x16', href: '/img/MyLogoBoldFundo.png' },
       { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
       { rel: 'manifest', href: '/img/site.webmanifest' },
-      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#860d0d' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Philosopher&display=swap' }
-    ],
+      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#860d0d' }
+    ]
   }
 }
   </script>
@@ -106,7 +104,7 @@ code {
   padding-left: 10px;
   margin-left: 15px;
   margin-right: 60px;
-  border-left: solid 5px #fff;
+  border-left: solid 5px #e23a28;
   color:#ddd;
 }
 
@@ -142,7 +140,7 @@ code {
 }
 
 .profile h1 {
-  margin: 5px 0 0 -10px;
+  margin: 13px 0 -5px -10px;
   font-size: 1.5em;
   color: #fff;
 }
@@ -151,7 +149,7 @@ code {
   margin: 0 0 0 -10px;
   font-size: .9em;
   font-weight: 100;
-  color: #fff;
+  color: #dbd1d1;
 }
 
 .main-one{
@@ -341,7 +339,7 @@ padding: 0 15px 0 0;
 
 
 a.nuxt-link-exact-active {
-  background-color: #fadb4170;
+  background-color: #e23a2890;
   color:#fff;
   border-radius: 0% 10% 10% 10%;
 }

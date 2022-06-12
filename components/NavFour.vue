@@ -19,7 +19,7 @@
   top: -1px;
   background: #860d0d;    
   border-radius: 0% 0% 10% 10%;
-  box-shadow: 0px .5px 5px #efefef80;
+  box-shadow: 0px .5px 5px #e23a2850;
   z-index: 10;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .nav-two i {
-  color: #fff;
+  color: #dbd1d1;
   margin-top: 8px;
   display: flex;
   justify-content: flex-end;

@@ -5,10 +5,10 @@
         <h5>Destaques</h5>
       </div>
     </div>
-    
+
     <div class='main-six'>
       <div class='main-six-card'>
-      <!--
+        <!--
         <NuxtLink to='/blog/lesoes/como-evitar-lesao-do-lca'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
@@ -28,8 +28,8 @@
           </h4>
         </NuxtLink>
         -->
-        <nuxt-link to='/blog/acupuntura/lombalgia-tai-yang'>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
+        <a href='https://deepacupuntura.com/posts/lombalgia-tai-yang'>
+          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
           <span>Leandro Cesar</span>
           <br>
           <h5>
@@ -39,36 +39,39 @@
           <p>
             <b>Resumo:</b>
             <br>
-            A Medicina Tradicional Chinesa (MTC) tem sua origem das combinações da prática da moxabustão, acupuntura e da farmacologia natural cujos ...
+            A Medicina Tradicional Chinesa (MTC) tem sua origem das combinações da prática da moxabustão, acupuntura e
+            da farmacologia natural cujos ...
           </p>
           <h4>
             @deepacupuntura
           </h4>
-        </nuxt-link>
-        <nuxt-link to='/blog/acupuntura/auriculoterapia-visao-oriental-ocidental'>
-          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
-          <span>Leandro Cesar</span>
-          <br>
-          <h5>
-            <i class="fa-solid fa-angle-right"></i> 
-            AURICULOTERAPIA:
-            Uma Visão Geral Dentro do
-            Pensamento Oriental e Ocidental
-          </h5>
-          <p>
-            <b>Resumo:</b>
+          </a>
+          <a href='https://deepacupuntura.com/posts/auriculoterapia-visao-oriental-ocidental'>
+            <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
+            <span>Leandro Cesar</span>
             <br>
-            Segundo Oleson (2003) a auriculoterapia é uma modalidade de saúde em que a superfície externa da orelha, ou aurícula, é estimulada para a...
-          </p>
-          <h4>
-            @deepacupuntura
-          </h4>
-        </nuxt-link>
-       
-      </div>  
-    </div>  
+            <h5>
+              <i class="fa-solid fa-angle-right"></i>
+              AURICULOTERAPIA:
+              Uma Visão Geral Dentro do
+              Pensamento Oriental e Ocidental
+            </h5>
+            <p>
+              <b>Resumo:</b>
+              <br>
+              Segundo Oleson (2003) a auriculoterapia é uma modalidade de saúde em que a superfície externa da orelha,
+              ou
+              aurícula, é estimulada para a...
+            </p>
+            <h4>
+              @deepacupuntura
+            </h4>
+          </a>
 
-    
+      </div>
+    </div>
+
+
 
   </div>
 </template>

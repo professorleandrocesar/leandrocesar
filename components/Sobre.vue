@@ -728,6 +728,7 @@ padding: 0 15px 0 0;
 
 .dateYear {
     color: #ccc;
+    cursor: pointer;
 }
 
 .dateYearHover {

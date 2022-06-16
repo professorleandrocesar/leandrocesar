@@ -27,6 +27,7 @@
 
 .nav-one a{
   text-decoration: none;
+  cursor: pointer;
   margin: 0 14px 0 6px;
   font-size: 1.2em;
 }

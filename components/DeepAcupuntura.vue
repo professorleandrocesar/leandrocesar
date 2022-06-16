@@ -5,24 +5,24 @@
       <img src='/img/MyLogoBold.svg' alt=''>
       <div>
         <h1>Deep Acupuntura</h1>
-        <h4>| Tratando a Raiz do Seu Problema | </h4>
+        <h4>| Clinica de Medicina Chinesa | </h4>
       </div>
     </div>
 
     <div class='main-one'>
       <a href="https://instagram.com/deepacupuntura">
         <i class="fa-brands fa-instagram-square"></i> @deepacupuntura
-      </a> 
+      </a>
       <a href="https://goo.gl/maps/4bbTEUKuQDbqotTG9">
         <i class="fa-solid fa-location-dot"></i> Rua da Conceição, 125 - Centro - Niterói
-      </a>   
-      <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Leandro,%20quero%20marcar%20minha%20sess%C3%A3o!">
+      </a>
+      <a href="https://agendamento.nextfit.com.br/74fb4384-512b-425d-9cc4-93d948554990">
         <i class="fa-brands fa-whatsapp-square"></i> Agendar horário
       </a>
     </div>
 
     <div class='divider'></div>
-    
+
     <div class='main-two'>
       <code>
         <b>
@@ -30,11 +30,10 @@
           mental e espiritual!
         </b>
       </code>
-      </a>
-    </div>  
+    </div>
 
     <div class='divider'></div>
-    
+
     <div class='main-tree'>
       <div>
         <h5><i class="fa-solid fa-arrows-spin"></i> Terapias</h5>
@@ -50,8 +49,8 @@
       </div>
     </div>
 
-    
-    
+
+
     <nuxt-child />
 
     <div class='divider'></div>
@@ -149,7 +148,7 @@ code {
   margin: 0 0 0 -10px;
   font-size: .9em;
   font-weight: 100;
-  color: #dbd1d1;
+  color: #e23a28;
 }
 
 .main-one{

@@ -19,13 +19,13 @@
           <h4>@professorleandrocesar</h4>
           <p>Personal trainer | Consultoria | <br>Avaliação Física | Krav-maga</p>
         </nuxt-link>
-        <nuxt-link to="/deepacupuntura">
+        <a href="https://deepacupuntura.com">
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'> 
           <span>Leandro Cesar</span>
           <br>
           <h4>@deepacupuntura </h4>
           <p>Clinica de Medicina Chinesa</p>
-        </nuxt-link>
+        </a>
     </div>  
     <nuxt-child />
     </div>

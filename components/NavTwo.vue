@@ -31,6 +31,7 @@
 }
 
 .nav-two a{
+  cursor: pointer;
   text-decoration: none;
   margin: 0 14px 0 6px;
   font-size: 1.2em;

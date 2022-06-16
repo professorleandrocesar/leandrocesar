@@ -53,7 +53,17 @@ export default {
           name: 'keywords',
           content: [this.key]
         }
-      ]
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/img/favicon.ico' },
+        { rel: 'shortcut icon', type: 'image/x-icon', href: '/img/favicon.svg' },
+        { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
+        { rel: 'icon', type: 'image/png', size: '32x32', href: '/img/favicon-32x32.png' },
+        { rel: 'icon', type: 'image/png', size: '16x16', href: '/img/favicon-16x16.png' },
+        { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/img/site.webmanifest' },
+        { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#002937' }
+      ],
     }
   },
   data() {

@@ -10,9 +10,9 @@
     </div>
 
     <div class='main-one'>
-      <nuxt-link to="/deepacupuntura">
+      <a href="https://deepacupuntura.com">
         <i class="fa-solid fa-building"></i> Dono do Deep Acupuntura
-      </nuxt-link>
+      </a>
       <nuxt-link to="/professor">
         <i class="fa-solid fa-dumbbell"></i> Profissional de Educação Física
       </nuxt-link>
@@ -48,13 +48,13 @@
           <h4>@professorleandrocesar</h4>
           <p>Personal trainer | Consultoria | <br>Avaliação Física | Krav-maga</p>
         </nuxt-link>
-        <nuxt-link to="/deepacupuntura">
+        <a href="https://deepacupuntura.com">
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
           <span>Leandro Cesar</span>
           <br>
           <h4>@deepacupuntura </h4>
           <p>Clinica de Medicina Chinesa</p>
-        </nuxt-link>
+        </a>
       </div>
     </div>
 
@@ -120,7 +120,7 @@
           </h4>
         </NuxtLink>
         -->
-        <nuxt-link to='/blog/acupuntura/lombalgia-tai-yang/'>
+        <a href='https://deepacupuntura.com/posts/lombalgia-tai-yang'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
           <span>Leandro Cesar</span>
           <br>
@@ -137,27 +137,27 @@
           <h4>
             @deepacupuntura
           </h4>
-          </nuxt-link>
-          <nuxt-link to='/blog/acupuntura/auriculoterapia-visao-oriental-ocidental'>
-            <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
-            <span>Leandro Cesar</span>
+        </a>
+        <a href='https://deepacupuntura.com/posts/auriculoterapia-visao-oriental-ocidental'>
+          <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
+          <span>Leandro Cesar</span>
+          <br>
+          <h5>
+            <i class="fa-solid fa-angle-right"></i>
+            AURICULOTERAPIA:
+            Uma Visão Geral Dentro do
+            Pensamento Oriental e Ocidental
+          </h5>
+          <p>
+            <b>Resumo:</b>
             <br>
-            <h5>
-              <i class="fa-solid fa-angle-right"></i>
-              AURICULOTERAPIA:
-              Uma Visão Geral Dentro do
-              Pensamento Oriental e Ocidental
-            </h5>
-            <p>
-              <b>Resumo:</b>
-              <br>
-              Segundo Oleson (2003) a auriculoterapia é uma modalidade de saúde em que a superfície externa da orelha,
-              ou aurícula, é estimulada para a...
-            </p>
-            <h4>
-              @deepacupuntura
-            </h4>
-          </nuxt-link>
+            Segundo Oleson (2003) a auriculoterapia é uma modalidade de saúde em que a superfície externa da orelha,
+            ou aurícula, é estimulada para a...
+          </p>
+          <h4>
+            @deepacupuntura
+          </h4>
+        </a>
 
       </div>
     </div>
@@ -207,8 +207,7 @@ export default {
       { rel: 'icon', type:'image/png', size: '16x16', href: '/img/favicon-16x16.png' },
       { rel: 'apple-touch-icon', size: '180x180', href: '/img/apple-touch-icon.png' },
       { rel: 'manifest', href: '/img/site.webmanifest' },
-      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#002937' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Philosopher&display=swap' }
+      { rel: 'mask-icon', href: '/img/safari-pinned-tab.svg', color: '#002937' }
     ],
   }
 }

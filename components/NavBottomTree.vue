@@ -47,8 +47,8 @@ i {
   align-self: center;
   line-height: 0;
   border-radius: 10% 10% 0% 0%;
-  box-shadow: 0px 2px 3px #e23a28;
-}
+  box-shadow: 0px .5px 5px #e23a2890;
+  }
 
 .nav-bottom div {
   cursor: pointer;

@@ -120,7 +120,7 @@
           </h4>
         </NuxtLink>
         -->
-        <a href='https://deepacupuntura.com/posts/lombalgia-tai-yang'>
+        <a href='https://deepacupuntura.com/blog/lombalgia-tai-yang'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
           <span>Leandro Cesar</span>
           <br>
@@ -138,7 +138,7 @@
             @deepacupuntura
           </h4>
         </a>
-        <a href='https://deepacupuntura.com/posts/auriculoterapia-visao-oriental-ocidental'>
+        <a href='https://deepacupuntura.com/blog/auriculoterapia-visao-oriental-ocidental'>
           <img src='/img/myFotoTwo.jpg' alt='' class='mini-profile'>
           <span>Leandro Cesar</span>
           <br>
